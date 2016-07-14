@@ -1,0 +1,29 @@
+{
+  "name": "redux-schema-middleware",
+  "version": "1.0.0",
+  "description": "Middleware for auto-parsing data from server with normalizr",
+  "main": "lib.js",
+  "files": [
+    "lib.js"
+  ],
+  "scripts": {
+    "build": "babel index.js -o lib.js",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "middleware",
+    "normalizr",
+    "schema"
+  ],
+  "author": "Sergey Chernobrovkin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13"
+  },
+  "dependencies": {
+    "normalizr": "^2.0.0"
+  }
+}
